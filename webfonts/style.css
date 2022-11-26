@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #8a2eff,#cce0ff);
+}
+.container {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    width: 500px;
+}
+.container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.quote-container {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #8a2eff;
+}
+.quote-container .quote {
+    display: flex;
+}
+.quote-container .quote p {
+    font-size: 0.95rem;
+    text-align: center;
+}
+.quote-container .quote i:last-child {
+    display: flex;
+    align-items: flex-end;
+}
+.quote-container .quote i:first-child{
+    margin-right: 3.5px;
+}
+.quote-container .author {
+    margin-top: 1rem;
+    text-align: end;
+}
+.quote-container .author span {
+    font-size: 0.95rem;
+}
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+}
+.icon-btns ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.icon-btns ul li {
+    list-style: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #8a2eff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.icon-btns ul li:hover {
+    background: #8a2eff;
+}
+.icon-btns ul li:hover i {
+    color: #fff;
+}
+.btns button {
+    border: none;
+    background: transparent;
+    padding: 0.75rem 1rem;
+    border: 1px solid #8a2eff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btns button:hover{
+    background: #8a2eff;
+    color: #fff;
+}
